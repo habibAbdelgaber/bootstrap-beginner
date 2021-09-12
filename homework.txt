@@ -1,0 +1,28 @@
+# to extend this video membership content ui and look like real website, we need to add some pages.
+and here are the pages we want to add:
+
+1- Change all enroll buttons to anchor tags, so when the user click on enroll the user will be direct to billing page.
+
+2- create login page that looks like register page just exclude all input fields except email and password fields.
+When the user click on login button the page has to be redirected the user to home page.
+Hint! Also on register page when the user sign up redirect to login page,
+with alert message that his/her account has been created successfully.
+
+3- create billing page that requires users or subscribers to fill these info below:
+a) first name and last name
+b) email address
+c) address
+d) country, state and zip code
+e) 1- Shipping address is the same as my billing address. 2- Save this information for next time. As checkboxes.
+f) 1, 2, 3 and etc as Payment methods checkboxes.
+g) redirect user to checkout page.
+Hint! the button for this page should be called continue to checkout.
+
+4- create checkout page that has these fields:
+a) at least 3 payment methods as checkboxes.
+b) name on card and credit card number fields.
+c) expiration and cvv fields.
+d) redirect user to success page
+Hint! the button for this page should be called proceed payment.
+
+5- create success page to alert user that the payment process has been successful.

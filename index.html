@@ -8,96 +8,59 @@
     <title>Document</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body class='bg-primary' style='overflow-x: hidden; font-family: Courier New, Courier, monospace;'>
-    <div class="container">
-        <div class="row my-3">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://www.fastcomet.com/blog/wp-content/uploads/2021/03/10-nodejs-frameworks-in-2021.png"
-                        alt="" class="card-img-top" style='height: 10rem'>
-                    <div class="card-body">
-                        <div>
-                            <h5 class='text-center'><strong>NodeJs for beginners</strong></h5>
-                            <h3 class='text-center'><strong class="text-muted">M/$17</strong></h3>
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item" aria-current="true">NodeJs for beginners</li>
-                            <li class="list-group-item">50 hours videos</li>
-                            <li class="list-group-item">learn in your pace</li>
-                            <li class="list-group-item">
-                                Beginners friendly
-                            </li>
-                        </ul>
-                        <div class=" my-2">
-                            <button class="btn btn-primary">Enroll</button>
-                            <button class="btn btn-warning">View detail</button>
-                        </div>
-                        <div class="d-grid">
-                            <button class='btn btn-outline-primary'>Yr/$154</button>
-                        </div>
+<body class='main-body'>
+    <main role="main">
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class='text-white'><b>Full Stack development</b></h1>
+                        <h2 class='text-white'><b>Learning today, Leading tomorrow</b></h2>
+                        <p class='text-white'>
+                            <i class="fas fa-quote-left"></i>
+                            <b>
+                                Start Your Full Stack web development journey here with us. <br>
+                                Build and deploy to servers such Heroku, Aws, Digitalocean and etc
+                            </b>
+                            <i class="fas fa-quote-right"></i>
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Get Started</a>
+                        <a href="https://www.w3schools.com/html/" class="btn btn-outline-danger"
+                            target='_blank'><b>Html</b> &nbsp;<i class="fab fa-html5 text-danger"></i></a>
+                        <a href="https://www.w3schools.com/css/" class="btn btn-outline-primary"
+                            target='_blank'><b>Css3</b> &nbsp;<i class="fab fa-css3"></i></i></a>
+                        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                            class="btn btn-outline-info" target='_blank'>
+                            <b>Bootstrap5</b>
+                            &nbsp;<i class="fab fa-bootstrap">
+                            </i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://www.fastcomet.com/blog/wp-content/uploads/2021/03/10-nodejs-frameworks-in-2021.png"
-                        alt="" class="card-img-top" style='height: 10rem'>
-                    <div class="card-body">
-                        <div>
-                            <h5 class='text-center'><strong>NodeJs Intermediate</strong></h5>
-                            <h3 class='text-center'><strong class="text-muted">M/$25</strong></h3>
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item" aria-current="true">NodeJs for beginners</li>
-                            <li class="list-group-item">50 hours videos</li>
-                            <li class="list-group-item">learn in your pace</li>
-                            <li class="list-group-item">
-                                Beginners friendly
-                            </li>
-                        </ul>
-                        <div class=" my-2">
-                            <button class="btn btn-primary">Enroll</button>
-                            <button class="btn btn-warning">View detail</button>
-                        </div>
-                        <div class="d-grid">
-                            <button class='btn btn-outline-primary'>Yr/$250</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://www.fastcomet.com/blog/wp-content/uploads/2021/03/10-nodejs-frameworks-in-2021.png"
-                        alt="" class="card-img-top" style='height: 10rem'>
-                    <div class="card-body">
-                        <div>
-                            <h5 class='text-center'><strong>NodeJs Advance</strong></h5>
-                            <h3 class='text-center'><strong class="text-muted">M/$35</strong></h3>
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item" aria-current="true">NodeJs for beginners</li>
-                            <li class="list-group-item">50 hours videos</li>
-                            <li class="list-group-item">learn in your pace</li>
-                            <li class="list-group-item">
-                                Beginners friendly
-                            </li>
-                        </ul>
-                        <div class=" my-2">
-                            <a href='register.html' class="btn btn-primary">Enroll</a>
-                            <button class="btn btn-warning">View detail</button>
+        </section><!-- End Hero -->
+    </main>
 
-                        </div>
-                        <div class="d-grid">
-                            <button class='btn btn-outline-primary'>Yr/$370</button>
-                        </div>
-                    </div>
-                </div>
+    <footer class="bg-dark">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center text-white pt-3">
+                    All rights Reserved
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                </p>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
